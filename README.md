@@ -55,8 +55,7 @@ run `python train.py` to train using default classes (tile) with default setting
 - `numStack`. Num of block stacked in normalizing flow. default is 4.
 - `gpu`. Training using which GPU device. default is 0.
 - `batchSize`. Training batch size. default is 2.
-- `saveMemory`. Whether use autoFlow to save memory during training. default is True.
-
+- `saveMemory`. Whether use autoFlow to save memory during training. default is True, but training slower.
 
 ## Citation
 If you find this code useful, don't forget to star the repo ⭐ and cite the paper:
